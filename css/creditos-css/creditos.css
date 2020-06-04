@@ -1,0 +1,26 @@
+body{}
+.titulo-lista{
+	font-family: Arial;
+	font-size: 20pt;
+	text-align: center;
+
+
+}
+.sub-titulo{
+
+	font-family: Arial;
+	font-size: 16pt;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+
+	margin: 5px;
+	background-color: #e7f8ff;
+	width: 50%
+
+}
+

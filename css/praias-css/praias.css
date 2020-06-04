@@ -1,0 +1,231 @@
+/*este css e exclusivo da pagina inicial*/
+
+/*Esta parte se refere ao menu e cabeçalho do site*/
+.menu a{
+  
+    border: 1px solid #e7f8ff;
+    background-color: lightblue;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+  text-decoration: none;
+   
+}
+
+.menu{
+
+  width: 43%;
+  height: auto;
+  position: absolute;
+  left: 45%;
+  margin: 15px;
+  position: absolute;
+  top:30px;
+  left: 48%;
+  
+}
+
+
+.tela{
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+    
+
+}
+
+.menu a:hover{
+     
+      background-color: #87CEFF;
+      border: 5px solid #e7f8ff;
+
+}
+
+
+
+
+@font-face {
+
+ font-family: "Lato";
+
+
+ src: url(../../fontes/Lato-Regular.ttf); } 
+
+*{ font-family: "Lato";  }
+
+
+
+/*formataçao do corpo*/
+.conteudo{
+  width: 100%;
+  height: auto;
+}
+
+.lugar{
+
+  border-color: #ccc #999 #999 #ccc;
+  border:1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.lugar h2{
+   border-bottom: 1px dashed #7e9719;
+   margin: 0;
+}
+
+.lugar img{
+    border:1px solid #7e9f19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+
+}
+.clear{
+  clear: both;
+}
+p{
+  text-align: justify;
+}
+
+
+/*fim da formataçao do corpo*/
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    
+    height: 300px;
+    width: 100%;
+    background-color: lightblue;
+   justify-content: space-between;
+   display: flex;
+    
+
+}
+
+
+
+
+.Geo{
+  
+  width: 33%;
+  margin: 5px;
+ 
+  
+}
+
+.titulo-rodape{
+  text-align: center;
+}
+
+.texto-rodape{
+  text-align: justify;
+}
+
+
+
+
+
+.Sit{
+  
+  width: 33%
+
+  
+    
+}
+
+.Sit ul li a{
+  
+  text-decoration: none;
+  
+}
+
+.Sit ul{
+  
+   list-style-type: none;
+   
+
+}
+
+.Map{
+  
+   width: 33%;
+   padding: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1300px) {
+
+
+.menu a{
+  
+    border: 1px solid #e7f8ff;
+    background-color: lightblue;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 11px;
+    padding-left: 25px;
+    text-decoration: none;
+    display: block;
+   
+}
+
+.menu{
+
+  width: 43%;
+  height: auto;
+  position: absolute;
+  left: 45%;
+  margin: 15px;
+  position: absolute;
+  top:0px;
+  left: 42%;
+  
+}
+
+
+.menu a:hover{
+     
+      background-color: #87CEFF;
+      border: 5px solid #e7f8ff;
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
